@@ -7,7 +7,7 @@ pushd `dirname $0` > /dev/null
 #make $1
 
 echo Building userpace tools
-cd ../
+cd src
 make $1
 
 popd > /dev/null
